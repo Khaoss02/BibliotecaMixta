@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Biblioteca Mixta</string>
+
+    <string name="imatge_item_desc">Imatge de la coberta</string>
+    <string name="menu_gallery_desc">Icona de galeria per defecte</string>
+    <string name="menu_error_desc">Error al carregar la imatge</string>
+
+    <string name="menu_titol">Selecciona una categoria</string>
+    <string name="opcio_llibres">Llibres</string>
+    <string name="opcio_pelicules">Pel·lícules</string>
+    <string name="opcio_jocs">Videojocs</string>
+    <string name="boto_cancelar">Cancel·lar</string>
+
+    <string name="llista_buida">No hi ha elements per mostrar. Selecciona una opció del menú.</string>
+</resources>

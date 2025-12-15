@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Disseny del menú flotant amb les opcions per triar -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- Títol del menú centrat a dalt -->
+    <TextView
+        android:id="@+id/tvMenuTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_titol"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Els 3 botons principals per canviar de llista -->
+    <Button
+        android:id="@+id/btnLlibres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opcio_llibres" />
+
+    <Button
+        android:id="@+id/btnPelicules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opcio_pelicules" />
+
+    <Button
+        android:id="@+id/btnJocs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opcio_jocs" />
+
+    <!-- Botó diferent per tancar -->
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boto_cancelar"
+        android:layout_marginTop="8dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+</LinearLayout>

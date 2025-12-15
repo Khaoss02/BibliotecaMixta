@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mixed Library</string>
+
+    <string name="imatge_item_desc">Cover image</string>
+    <string name="menu_gallery_desc">Default gallery icon</string>
+    <string name="menu_error_desc">Error loading image</string>
+
+    <string name="menu_titol">Select a category</string>
+    <string name="opcio_llibres">Books</string>
+    <string name="opcio_pelicules">Movies</string>
+    <string name="opcio_jocs">Video games</string>
+    <string name="boto_cancelar">Cancel</string>
+
+    <string name="llista_buida">No items to show. Please select an option from the menu.</string>
+</resources>
