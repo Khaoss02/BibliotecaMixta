@@ -32,10 +32,6 @@ Los datos de cada lista se leen desde archivos JSON locales. Cada archivo contie
 
 La lectura y el procesamiento de los datos se realizan dentro del fragmento encargado de mostrar la lista, desde donde se pasan al adapter del RecyclerView.
 
-Gestión de la navegación
-
-Al iniciar la aplicación se muestra el fragmento de la lista, inicialmente vacío. Al pulsar el botón de menú se muestra el fragmento del menú sobre el fragmento de la lista. Al volver a pulsar, el menú se oculta y se actualiza el contenido mostrado según la opción seleccionada.
-
 Soporte multi-idioma
 
 La aplicación incluye soporte para múltiples idiomas mediante el uso de archivos strings.xml, permitiendo adaptar los textos visibles de la interfaz al idioma seleccionado.
